@@ -34,8 +34,7 @@ public:
             return first_name + " with unknown last name";
         }
         else return first_name + " " + last_name;
-    }
-    }
+        }
 private:
     std::map<int, std::string> name_history, surname_history;
 };
